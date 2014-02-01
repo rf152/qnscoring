@@ -1,0 +1,103 @@
+#header {
+	margin-bottom: 20px;
+}
+
+#gamestate {
+	width: 100%;
+	text-align: center;
+}
+
+span.emphasis {
+	color: #009900;
+	font-weight: bold;
+}
+
+#clock {
+	float:right;
+	background: #FFFFFF;
+	font-size: 1.8em;
+	color: #990000;
+	font-weight: bold;
+	padding: 5px;
+	margin-right: 15px;
+	display:none;
+}
+
+#scoresheet {
+	width: 95%;
+	clear:right;
+	margin: 20px;
+}
+
+/* Headings colour */
+#scoresheet thead {
+	font-weight: bold;
+	color: #000099;
+}
+
+/* Round titles */
+#scoresheet thead tr th {
+	width: 30px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 10px;
+	padding: 5px;
+}
+
+/* Total Title */
+#scoresheet thead tr th:last-child {
+	width: 60px;
+	border-left: none;
+	border-bottom: 1px solid #000000;
+}
+/* Team name Titles */
+#scoresheet thead tr th:first-child {
+	width: auto;
+	text-align: left;
+}
+
+/** For later when using round names rotated 
+#scoresheet td.roundname div {
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: bottom middle;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-bottom: 50%;
+}
+/**/
+
+/* Round scores */
+#scoresheet td {
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+}
+
+/* Team Names */
+#scoresheet td:first-child {
+	font-weight: normal;
+	text-align: left;
+}
+/* Bottom border */
+#scoresheet tr:last-child td {
+	border-bottom: 1px solid #000000;
+}
+
+.joker {
+	font-weight: bold;
+	color: #00CC33;
+}
+
+.chicken {
+	font-weight: bold;
+	color: #0000FF;
+}
+
+#legend {
+	font-size: 14px;
+	text-align: center;
+}

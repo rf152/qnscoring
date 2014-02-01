@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font-family: Trebuchet MS, Sans Serif;
+	font-size: 16px;
+	background: #E2DDFF;
+	height: 100%;
+	position: relative;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+	color: #009900;
+}

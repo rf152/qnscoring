@@ -1,0 +1,29 @@
+#overlay-bg {
+	display: none;
+	z-index: 10;
+	background: #666666;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#overlay-content {
+	display: none;
+	width: 380px;
+	height: 480px;
+	
+	background: #FFFFFF;
+	opacity: 1.0;
+	
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -250px;
+	z-index: 11;
+	
+	border-radius: 10px;
+	padding: 10px;
+
+}
