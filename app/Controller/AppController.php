@@ -66,6 +66,7 @@ class AppController extends Controller {
 	}
 	
 	protected function getGame() {
+		$this->loadModel('Game');
 		$game = $this->Game->find(
 			'first',
 			array(

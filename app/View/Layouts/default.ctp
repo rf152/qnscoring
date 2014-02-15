@@ -14,6 +14,7 @@
 		
 		echo $this->Html->script('jquery-1.11.0');
 		echo $this->Html->script('jquery.form');
+		echo $this->Html->script('ajaxoverlay');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
